@@ -98,8 +98,8 @@ const CountDown = () => {
                     </div>
                 </div>
                 <Text style={{alignContent: "center", textAlign: "center", marginTop:"5px"}} >
-                    <a style={{marginLeft:"5px", color:"#2b2a28", textDecoration:"underline"}} href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x26Cb8741253Ac3f6fAF34d91971934e1306d3790" target="_blank">Click here to Buy $FFD with BUSD</a> |
-                    |<a style={{marginLeft:"5px", color:"#2b2a28", textDecoration:"underline"}} href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=ETH&outputCurrency=0x26Cb8741253Ac3f6fAF34d91971934e1306d3790" target="_blank">Click here to Buy $FFD with BNB</a>
+                    <a style={{marginLeft:"5px", color:"#2b2a28", textDecoration:"underline"}} href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x26Cb8741253Ac3f6fAF34d91971934e1306d3790" target="_blank">Click here to Buy $SPCO with BUSD</a> |
+                    |<a style={{marginLeft:"5px", color:"#2b2a28", textDecoration:"underline"}} href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=ETH&outputCurrency=0x26Cb8741253Ac3f6fAF34d91971934e1306d3790" target="_blank">Click here to Buy $SPCO with BNB</a>
                 </Text>
             </div>
             : <div>
