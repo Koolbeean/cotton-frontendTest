@@ -90,7 +90,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.ffdPerBlock || 1).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18)) // TO DO
+        const cakeRewardPerBlock = new BigNumber(farm.SPCOPerBlock || 1).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18)) // TO DO
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
         const cakeRewardPerMonth = cakeRewardPerYear.div(12)
 
@@ -136,10 +136,10 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     <Hero>
       <Header>
         <Heading as="h1" size="xxl" color="secondary" mb="24px" style={{ opacity: '1', color: "#e0d8d1" }}>
-        {tokenMode ? TranslateString(999, 'FFD Pools') : TranslateString(999, 'Farms')}
+        {tokenMode ? TranslateString(999, 'SPCO Pools') : TranslateString(999, 'Farms')}
         </Heading>
         <Heading size="lg" color="text" style={{ opacity: '1000', color: "white" }}>
-        {tokenMode ? TranslateString(999, 'Stake tokens to earn FFD.') : TranslateString(999, 'Stake Liquidity Pool (LP) tokens to earn FFD.')}
+        {tokenMode ? TranslateString(999, 'Stake tokens to earn SPCO.') : TranslateString(999, 'Stake Liquidity Pool (LP) tokens to earn SPCO.')}
         </Heading>
       </Header>
       </Hero>
