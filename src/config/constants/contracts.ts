@@ -1,6 +1,6 @@
 export default {
-  cake: {    // default tokens COC
-    56: '0xb789f0CbbA9F8805519eB6d688C7b77AA1e26069',
+  cake: {    // default tokens SPCO
+    56: '0x26Cb8741253Ac3f6fAF34d91971934e1306d3790',
     97: '',
   },
   masterChef: {
