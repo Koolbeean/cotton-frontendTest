@@ -300,7 +300,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 20,
+    pid: 18,
     risk: 4,
     isTokenOnly: true,
     lpSymbol: 'SPCA',
