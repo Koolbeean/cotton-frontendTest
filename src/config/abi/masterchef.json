@@ -2,8 +2,8 @@
 	{
 		"inputs": [
 			{
-				"internalType": "contract FfdToken",
-				"name": "_ffd",
+				"internalType": "contract SPCOToken",
+				"name": "_SPCO",
 				"type": "address"
 			},
 			{
@@ -18,7 +18,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "_ffdPerBlock",
+				"name": "_SPCOPerBlock",
 				"type": "uint256"
 			},
 			{
@@ -237,10 +237,10 @@
 	},
 	{
 		"inputs": [],
-		"name": "ffd",
+		"name": "SPCO",
 		"outputs": [
 			{
-				"internalType": "contract FfdToken",
+				"internalType": "contract SPCOToken",
 				"name": "",
 				"type": "address"
 			}
@@ -250,7 +250,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "ffdPerBlock",
+		"name": "SPCOPerBlock",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -318,7 +318,7 @@
 				"type": "address"
 			}
 		],
-		"name": "pendingFfd",
+		"name": "pendingSPCO",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -356,7 +356,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "accFfdPerShare",
+				"name": "accSPCOPerShare",
 				"type": "uint256"
 			},
 			{
@@ -472,7 +472,7 @@
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "_ffdPerBlock",
+				"name": "_SPCOPerBlock",
 				"type": "uint256"
 			}
 		],
