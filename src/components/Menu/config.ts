@@ -69,7 +69,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://defifastfood.gitbook.io/fast-food-defi/tokenomics/fast-food-ffd',
+        href: 'https://defifastfood.gitbook.io/fast-food-defi/tokenomics/fast-food-SPCO',
       },
     ],
   },
