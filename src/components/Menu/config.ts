@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=ETH&outputCurrency=0xb789f0CbbA9F8805519eB6d688C7b77AA1e26069',
+        href: 'https://exchange.pancakeswap.finance/#/swap?inputCurrency=ETH&outputCurrency=0x26Cb8741253Ac3f6fAF34d91971934e1306d3790',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/0xb789f0CbbA9F8805519eB6d688C7b77AA1e26069/BNB', 
+        href: 'https://exchange.pancakeswap.finance/#/add/0x26Cb8741253Ac3f6fAF34d91971934e1306d3790/BNB', 
       },
     ],
   },
@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xb789f0CbbA9F8805519eB6d688C7b77AA1e26069',     // default tokens COC
+        href: 'https://pancakeswap.info/token/0x26Cb8741253Ac3f6fAF34d91971934e1306d3790',     // default tokens COC
       },
       {
         label: 'Chart',
